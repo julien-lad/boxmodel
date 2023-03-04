@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The box model</title>
+    <link rel="stylesheet" href="boxmodelstyle.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <div class="effect.nav">
+                <li class="active"><a class="active" href="#">Home</a></li>
+            </div>
+            <div class="effect.nav">    
+                <li class="active"><a href="#">About</a></li>
+            </div>
+            <div class="effect.nav">
+                <li class="active"><a href="#">Contact</a></li>
+            </div>
+        </ul>
+    </nav>
+    <main>
+        <h1>The box model</h1>
+        <form>
+            <h2>Leave your message</h2>
+            <div class="colonne">
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name">
+                </div>
+                <div class="espaceMailMessage">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email">
+                </div>
+                <div class="espaceMailMessage">
+                    <label for="message">Message</label><br>
+                    <textarea id="message" rows="10"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>&copy; Wilder</footer>
+</body>
+</html>
 
